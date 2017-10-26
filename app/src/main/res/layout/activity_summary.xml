@@ -7,10 +7,20 @@
     tools:context="ca.csci4100u.nathaniel.asmt1_nathanielyearwood_and_andrewwatton.Summary">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/summaryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textAlignment="center"
+        android:layout_marginBottom="137dp"
+        app:layout_constraintBottom_toTopOf="@+id/summaryText" />
+
+    <TextView
+        android:id="@+id/summaryText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

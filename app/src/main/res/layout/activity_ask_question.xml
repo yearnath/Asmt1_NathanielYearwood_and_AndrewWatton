@@ -8,26 +8,37 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
+
     <TextView
-        android:id="@+id/lbl_question"
+        android:id="@+id/questionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/questionText"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/questionText"
         android:layout_width="245dp"
         android:layout_height="100dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Question"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.255" />
+        app:layout_constraintVertical_bias="0.255"
+        android:text="how old are you"/>
 
     <Button
         android:id="@+id/yesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickYes"
-        android:text="@string/yes_lbl"
+        android:text="@string/yes_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/noButton"
@@ -41,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickNo"
-        android:text="@string/no_lbl"
+        android:text="@string/no_button"
         app:layout_constraintLeft_toRightOf="@+id/yesButton"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,13 +65,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/guideline2"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="70dp" />
+        app:layout_constraintGuide_begin="70dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="70dp" />
 
     <android.support.constraint.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/guideline3"
         android:orientation="vertical"
-        app:layout_constraintGuide_end="70dp" />
+        app:layout_constraintGuide_end="70dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="314dp" />
 
 </android.support.constraint.ConstraintLayout>

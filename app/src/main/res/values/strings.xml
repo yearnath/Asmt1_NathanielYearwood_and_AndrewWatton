@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Assignment 1</string>
-    <string name="start_lbl">Start</string>
-    <string name="yes_lbl">Yes</string>
-    <string name="no_lbl">No</string>
+    <string name="start_button">Start</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="summary_title">Your Answers</string>
 </resources>

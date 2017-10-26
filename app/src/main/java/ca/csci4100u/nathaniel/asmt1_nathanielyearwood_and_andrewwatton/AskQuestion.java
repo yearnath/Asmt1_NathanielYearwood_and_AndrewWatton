@@ -14,12 +14,17 @@ public class AskQuestion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ask_question);
 
-        String[] questions = getResources().getStringArray(R.array.questions);
-
-        TextView lblGreeting = (TextView)findViewById(R.id.lbl_question);
-        lblGreeting.setText(questions[MainMenu.currentQuestion]);
+        // print "Question i/total" and the current question
+        String question = getIntent().getStringExtra("question");
+        TextView questionTitle = (TextView)findViewById(R.id.questionTitle);
+        int q = MainMenu.currentQuestion+1;
+        questionTitle.setText("Question " + q + "/" + MainMenu.numberOfQuestions);
+        TextView questionText = (TextView)findViewById(R.id.questionText);
+        questionText.setText(question);
     }
 
+
+    // return 1 for "yes" answer an 0 for "no" answer
     public void onClickYes(View v) {
         Intent resultIntent = new Intent(Intent.ACTION_PICK);
         resultIntent.putExtra("response", 1);
