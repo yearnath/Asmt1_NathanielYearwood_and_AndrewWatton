@@ -3,39 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="018fcfc30ed1e7ea48aa4080a09c9b4b5f73b6ad">
-        <dex dex="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e1a2feae1a3d172893c508c9eff37862a688c4dd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/nathaniel/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ddf2e7d51a053c5cd6f6e7ff44997b5abcc33c89/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\andre\Documents\GitHub\Asmt1_NathanielYearwood_and_AndrewWatton\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b9c66001544b1e464846a9e8d91af2f8a79aeab4/classes.dex" />
+        <dex dex="C:\Users\andre\Documents\GitHub\Asmt1_NathanielYearwood_and_AndrewWatton\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_44f36dc688eb8be677a46ed271f434b892f030d0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/nathaniel/.android/build-cache/89f60f558df2513a55e78de1ecca4de2c4b7b68d/output/jars/classes.jar"
+        jar="C:\Users\andre\Documents\GitHub\Asmt1_NathanielYearwood_and_AndrewWatton\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/nathaniel/AndroidStudioProjects/Asmt1_NathanielYearwood_and_AndrewWatton/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5826b0f1f71b28e8ed631b738c37ecc7fe413364/classes.dex" />
+        sha1="fa7aa5207675ef097d5e00e0307964ce8edc269f">
+        <dex dex="C:\Users\andre\Documents\GitHub\Asmt1_NathanielYearwood_and_AndrewWatton\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0a1cc59c680fdf312144c74700520ef6d4c949e8\classes.dex" />
     </item>
 
 </items>

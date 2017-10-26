@@ -31,5 +31,8 @@ public class MainMenu extends AppCompatActivity {
             responses[currentQuestion] = resultIntent.getIntExtra("response", -1);
             currentQuestion++;
         }
+        if (currentQuestion<=responses.length){
+            this.ask(this.findViewById(R.id.button2));
+        }
     }
 }
