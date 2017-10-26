@@ -3,11 +3,4 @@
     <string name="start_lbl">Start</string>
     <string name="yes_lbl">Yes</string>
     <string name="no_lbl">No</string>
-    <string-array name="questions">
-        <item>Is your favourite colour in the visible spectrum?</item>
-        <item>Is your favourite number real (not imaginary)?</item>
-        <item>Are you going to answer "No" to this question?</item>
-        <item>Is the sky blue?</item>
-        <item>Is this the last question?</item>
-    </string-array>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions">
+        <item>Is your favourite colour in the visible spectrum?</item>
+        <item>Is your favourite number real (not imaginary)?</item>
+        <item>Are you going to answer \"No\" to this question?</item>
+        <item>Is the sky blue?</item>
+        <item>Is this the last question?</item>
+    </string-array>
+</resources>
